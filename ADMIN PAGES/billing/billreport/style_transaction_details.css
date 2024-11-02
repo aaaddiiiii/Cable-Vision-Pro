@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Krona';
+    src: url('../../../FONTS/KronaOne-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krona', sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.side-panel {
+    width: 8cm;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.side-button {
+    width: 7cm;
+    height: 2cm;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.side-button:hover {
+    background-color: #444;
+}
+
+.logout {
+    background-color: red;
+}
+
+.logout:hover {
+    background-color: darkred;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    padding-top: 2cm;
+    padding-left: 72px;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.details-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 40px;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-item label {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.detail-item input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    height: 1.3cm;
+    font-size: 16px;
+    cursor: not-allowed;
+}

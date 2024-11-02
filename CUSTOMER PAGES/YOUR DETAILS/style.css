@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Krona';
+    src: url('../../Fonts/KronaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krona', sans-serif; /* Apply Krona font to all elements */
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* Full height of viewport */
+}
+
+/* Left side panel styling */
+.side-panel {
+    width: 8cm;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center; /* Center the buttons horizontally */
+}
+
+.side-button {
+    width: 7cm;
+    height: 2cm;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.side-button:hover {
+    background-color: #444;
+}
+
+.logout {
+    background-color: red;
+}
+
+.logout:hover {
+    background-color: darkred;
+}
+
+/* Main content area */
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    padding-left: 72px;
+    padding-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left; /* Align heading to the left */
+}
+
+/* Form styles */
+.customer-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; /* Use full width */
+}
+
+.input-container {
+    display: flex; /* Use flexbox to align containers side by side */
+    justify-content: space-between; /* Space out the containers */
+    margin-left: 40px; /* Align with the main content */
+    margin-bottom: 20px; /* Space below the containers */
+    padding-left: 30px;
+}
+
+.left-container, .right-container {
+    display: flex;
+    flex-direction: column; /* Stack the labels and inputs vertically */
+    width: 48%; /* Each container takes up 48% of the row */
+}
+
+.customer-form label {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    text-align: left; /* Ensure labels are aligned to the left */
+}
+
+.customer-form input,
+.customer-form textarea {
+    padding: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    width: 10cm; /* Set the width of input fields to 10 cm */
+}
+
+.customer-form input[readonly],
+.customer-form textarea[readonly] {
+    background-color: #444; /* Darker background for read-only fields */
+    cursor: not-allowed; /* Show that fields are not editable */
+}
+
+.customer-form textarea {
+    height: 2cm; /* Fixed height for address field */
+    resize: none; /* Disable resizing */
+}

@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Krona';
+    src: url('../Fonts/KronaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Ensure full height for html and body */
+html, body {
+    height: 100%; /* Set height to 100% for html and body */
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+/* Background Style */
+.bg_main {
+    background-image: url('../Images/warehouse.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: 'Krona', sans-serif;
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Form Styling */
+.login_form {
+    background-color: black;
+    padding-left: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    border-top: 25px;
+    height: 460px;
+    width: 650px;
+    position: relative; /* Ensure form is on top of the background */
+    z-index: 1; /* Ensure form appears above background */
+}
+
+/* Header */
+.headingmain {
+    font-size: 50px;
+    font-family: 'Krona', sans-serif;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+/* Block Style */
+.blk1 {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+/* Textbox Styles */
+.textbox1_1 {
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background-color: #B99378;
+    font-size: 20px;
+    font-family: 'Krona', sans-serif;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    float: initial;
+}
+
+.textbox1_1:focus {
+    outline: none;              
+    border-color: #57BB57;      
+    box-shadow: 0 0 5px #57BB57;
+}
+
+.textbox1_2 {
+    height: 50px;
+    width: 253px;
+    border-radius: 10px;
+    border: none;
+    background-color: #B99378;
+    font-size: 20px;
+    font-family: 'Krona', sans-serif;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    float: initial;
+}
+
+.textbox1_2:focus {
+    outline: none;              
+    border-color: #57BB57;      
+    box-shadow: 0 0 5px #57BB57;
+}
+
+.textbox2_1 {
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background-color: #B99378;
+    font-size: 20px;
+    font-family: 'Krona', sans-serif;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    float: initial;
+}
+
+.textbox2_1:focus {
+    outline: none;              
+    border-color: #C57740;      
+    box-shadow: 0 0 5px #C57740;
+}
+
+.textbox2_2 {
+    height: 50px;
+    width: 253px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8FBA8F;
+    font-size: 20px;
+    font-family: 'Krona', sans-serif;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    float: initial;
+}
+
+.textbox2_2:focus {
+    outline: none;              
+    border-color: #57BB57;      
+    box-shadow: 0 0 5px #57BB57;
+}
+
+/* Submit Button Styles */
+.submit_button_u {
+    margin-top: 30px;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    background-color: #57BB57;
+    font-family: 'Krona', sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.submit_button_u:hover {
+    cursor: pointer;
+}
+
+.submit_button_a {
+    margin-top: 30px;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    background-color: #C57740;
+    font-family: 'Krona', sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.submit_button_a:hover {
+    cursor: pointer;
+}
+
+/* Error Message Style */
+.error-message {
+    color: red;           /* Sets the text color to red */
+    font-weight: bold;    /* Makes the text bold */
+    margin-top: 10px;     /* Adds some space above the message */
+}
+
+/* Label Style */
+label {
+    font-size: 25px;
+    text-align: right;
+}

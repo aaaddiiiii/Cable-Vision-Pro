@@ -1,0 +1,137 @@
+/* Import the custom font */
+@font-face {
+    font-family: 'Krona';
+    src: url('../../../FONTS/KronaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General body styling */
+body {
+    margin: 0;
+    font-family: 'Krona', sans-serif; /* Set body font to Krona */
+    background-color: #141414;
+    color: white;
+    height: 100vh; /* Full height of viewport */
+    display: flex;
+}
+
+/* Main container for side panel and content */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Left side panel styling */
+.side-panel {
+    width: 8cm;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    height: 100vh; /* Make side panel full height */
+    position: fixed; /* Fix the side panel in place */
+    left: 0; /* Align it to the left */
+}
+
+/* Button container for side buttons */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+/* Side buttons */
+.side-button {
+    width: 7cm;
+    height: 2cm;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Krona', sans-serif; /* Ensure Krona font */
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+    transition: background-color 0.3s;
+}
+
+.side-button:hover {
+    background-color: #444;
+}
+
+.logout {
+    background-color: red;
+}
+
+.logout:hover {
+    background-color: darkred;
+}
+
+/* Main content area */
+.main-content {
+    margin-left: 8cm; /* Leave space for the side panel */
+    flex-grow: 1; /* Allow this section to grow */
+    padding: 20px;
+    overflow: hidden; /* Prevent internal scrollbars */
+    height: 100vh; /* Full height of the viewport */
+}
+
+/* Page heading */
+.main-content h1 {
+    padding-left: 35px;
+    padding-top: 20px; /* Adjusted for better spacing */
+    padding-bottom: 30px;
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+/* Complaints container styling */
+.complaints-container {
+    display: flex;
+    flex-wrap: wrap;           /* Wrap to the next line */
+    justify-content: flex-start; /* Align boxes to the left */
+    margin: 20px;             /* Add margin around the container */
+    overflow-y: auto;         /* Enable vertical scrolling for complaints */
+    max-height: calc(100vh - 150px); /* Limit height to avoid internal scrolling */
+}
+
+/* Additional styling for complaints */
+.complaint-box {
+    width: 9.25cm;              /* Set width to 9.25 cm */
+    height: 6cm;                /* Set height to 6 cm */
+    background-color: #333;     /* Dark background for the box */
+    color: white;
+    border-radius: 10px;
+    margin: 10px;               /* Margin between boxes */
+    padding: 1cm;               /* Inner padding of 1 cm (1 cm margin inside the box) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;           /* Align text to the left */
+    font-size: 16px;
+    box-sizing: border-box;      /* Include padding and border in element's total width and height */
+    overflow: hidden;            /* Hide overflow text */
+}
+
+/* Submit button styling */
+.submit-button {
+    width: 100%;
+    height: 1.5cm;
+    background-color: yellow;
+    color: #141414;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Krona', sans-serif; /* Ensure Krona font */
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #FFD700;
+}

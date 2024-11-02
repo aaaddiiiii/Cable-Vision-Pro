@@ -1,0 +1,110 @@
+/* Import the custom font */
+@font-face {
+    font-family: 'Krona';
+    src: url('../Fonts/KronaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General body styling */
+body {
+    margin: 0;
+    font-family: 'Krona', sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+/* Main container for side panel and content */
+.container {
+    display: flex;
+}
+
+/* Left side panel styling */
+.side-panel {
+    width: 7cm; /* Adjusted panel width */
+    height: 100vh; /* Full height of viewport */
+    background-color: black;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the buttons horizontally */
+}
+
+.side-button {
+    width: 6.5cm; /* Set button width to be slightly less than the panel width */
+    height: 2cm;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center; 
+    font-family: 'Krona', sans-serif;
+}
+
+.side-button:hover {
+    background-color: #444;
+}
+
+.logout {
+    background-color: red;
+}
+
+.logout:hover {
+    background-color: darkred;
+}
+
+/* Main content area */
+.main-content {
+    flex-grow: 1; /* Take up the rest of the space */
+    padding: 20px; /* General padding */
+    background-color: #141414; /* Match background color */
+}
+
+/* Align heading with the left edge of button grid */
+.heading-container {
+    padding-left: 60px; /* Align heading with button grid */
+}
+
+.main-content h1 {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Krona', sans-serif;
+    margin-bottom: 70px;
+    padding-left: 90px;
+    padding-top: 2.5cm;
+}
+
+/* Button grid in 3x2 layout */
+.button-grid {
+    padding-left: 60px; /* Align buttons symmetrically */
+    padding-right: 60px; /* Align buttons symmetrically */
+    display: grid;
+    grid-template-columns: repeat(3, 7.5cm); /* Adjusted button width */
+    grid-template-rows: repeat(2, 6cm); /* Adjusted button height */
+    gap: 20px; /* Adjust spacing as needed */
+    justify-content: center; /* Center the grid */
+}
+
+.main-button {
+    width: 7.5cm; /* Updated width */
+    height: 6cm; /* Updated height */
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Krona', sans-serif;
+}
+
+.main-button:hover {
+    background-color: #f3ca20;
+}

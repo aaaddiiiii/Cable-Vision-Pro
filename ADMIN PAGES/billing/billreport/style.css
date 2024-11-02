@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Krona';
+    src: url('../../../FONTS/KronaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krona', sans-serif; /* Apply Krona font to all elements */
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+    min-height: 100vh; /* Full height of viewport */
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh; /* Ensure container takes the full height of viewport */
+}
+
+/* Left side panel styling */
+.side-panel {
+    width: 20%; /* Use percentage for better responsiveness */
+    max-width: 300px; /* Prevent panel from being too wide */
+    min-width: 200px; /* Prevent panel from shrinking too much */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center; /* Center the buttons horizontally */
+}
+
+.side-button {
+    width: 80%; /* Adjust button width relative to the panel */
+    height: 2cm;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.side-button:hover {
+    background-color: #444;
+}
+
+.logout {
+    background-color: red;
+}
+
+.logout:hover {
+    background-color: darkred;
+}
+
+/* Main content area */
+.main-content {
+    flex-grow: 1; /* Take up the rest of the space */
+    padding: 40px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    padding-left: 0px;
+    padding-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left; /* Align heading to the left */
+}

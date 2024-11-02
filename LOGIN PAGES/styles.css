@@ -1,0 +1,76 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #141414;
+    color: #f4f4f9;
+}
+
+/* Login Container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #1f1f1f;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+/* Header */
+.login-container h2 {
+    margin-bottom: 1.5rem;
+    color: #ffbb33;
+}
+
+/* Form Labels and Inputs */
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    color: #b3b3b3;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #f4f4f9;
+}
+
+form input:focus {
+    outline: none;
+    border: 2px solid #ffbb33;
+}
+
+/* Submit Button */
+form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffbb33;
+    color: #141414;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ff9900;
+}
+

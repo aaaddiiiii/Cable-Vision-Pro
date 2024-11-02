@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Krona';
+    src: url('../../../Fonts/KronaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krona', sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Left side panel styling */
+.side-panel {
+    width: 7cm;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.side-button {
+    width: 6.5cm;
+    height: 2cm;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.side-button:hover {
+    background-color: #444;
+}
+
+.logout {
+    background-color: red;
+}
+
+.logout:hover {
+    background-color: darkred;
+}
+
+/* Main content area */
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h1 {
+    padding-top: 1cm;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.customer-form {
+    width: 100%;
+    max-width: 600px; /* Set a max width to control form size */
+    margin-top: 10px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.input-container textarea {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    height: 10cm; /* Large height for the feedback textbox */
+    resize: vertical; /* Allows resizing vertically only */
+}
+
+/* Aligning submit button */
+.submit-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns button to the left */
+    width: 100%;
+    margin-top: 20px;
+}
+
+.submit-button {
+    width: 100%;
+    max-width: 200px;
+    height: 1.5cm;
+    background-color: yellow;
+    color: #141414;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #FFD700;
+}
