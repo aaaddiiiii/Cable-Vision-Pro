@@ -1,15 +1,14 @@
 # Cable-Vision-Pro
 
-Cable-Vision-Pro
 Cable-Vision-Pro is a web-based cable connection management application developed using PHP, MySQL, HTML, CSS, and JavaScript. This system allows users to manage cable connections efficiently while providing an admin interface for overseeing customer accounts, billing, and complaints. Built with XAMPP as the local server environment, this system is suitable for small to medium-sized cable service providers.
 
 # Features
-User Registration and Role Selection: New Admins and Users can be added by the admin.
-Admin Panel: Admins can manage customer accounts, view and edit billing details, and handle complaints.
-Customer Management: Track customer subscriptions, manage details like addresses and contact information.
-Billing System: Generate bills for all customers at once, with real-time updates on payment status.
-Complaints Management: Admins can manage and resolve customer complaints efficiently.
-Database Integration: MySQL is used for reliable data management across the system.
+1. User Registration and Role Selection: New Admins and Users can be added by the admin.
+2. Admin Panel: Admins can manage customer accounts, view and edit billing details, and handle complaints.
+3. Customer Management: Track customer subscriptions, manage details like addresses and contact information.
+4. Billing System: Generate bills for all customers at once, with real-time updates on payment status.
+5. Complaints Management: Admins can manage and resolve customer complaints efficiently.
+6. Database Integration: MySQL is used for reliable data management across the system.
 
 
 # Sample Images
@@ -25,9 +24,9 @@ Database Integration: MySQL is used for reliable data management across the syst
 
 
 # Technologies Used
-Backend: PHP for server-side scripting and MySQL for database management.
-Frontend: HTML, CSS, and JavaScript for user interface and interactivity.
-Server Setup: XAMPP to host and run the application locally.
+1. Backend: PHP for server-side scripting and MySQL for database management.
+2. Frontend: HTML, CSS, and JavaScript for user interface and interactivity.
+3. Server Setup: XAMPP to host and run the application locally.
 
 # Installation
 To run this project locally, follow these steps:
@@ -54,10 +53,10 @@ CUSTOMER PAGES : Interface for customers to view their details and manage their 
 LOGIN PAGES : Contains the customer and admin login pages and customer and admin dashboard.
 
 # Usage
-User Registration: Register as a customer or admin.
-Admin Login: Admin can log in to manage users and view billing details.
-Billing Management: Admin can view, update, and delete billing information as needed.
-Complaints Handling: Admin can manage and resolve customer complaints efficiently.
+1. User Registration: Register as a customer or admin.
+2. Admin Login: Admin can log in to manage users and view billing details.
+3. Billing Management: Admin can view, update, and delete billing information as needed.
+4. Complaints Handling: Admin can manage and resolve customer complaints efficiently.
 
 # License
 This project is licensed under the GNU GPL 3.0. See the LICENSE file for details.
