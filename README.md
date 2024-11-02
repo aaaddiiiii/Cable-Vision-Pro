@@ -11,7 +11,9 @@ Billing System: Generate bills for all customers at once, with real-time updates
 Complaints Management: Admins can manage and resolve customer complaints efficiently.
 Database Integration: MySQL is used for reliable data management across the system.
 
-# sample images
+
+# Sample Images
+
 
 ![Screenshot 2024-11-02 170600](https://github.com/user-attachments/assets/661649ac-0a6e-4511-9c3b-e00d2ede3346)
 ![Screenshot 2024-11-02 170624](https://github.com/user-attachments/assets/3462551d-2a94-4caf-8172-62b9b0870acc)
@@ -19,6 +21,8 @@ Database Integration: MySQL is used for reliable data management across the syst
 ![Screenshot (173)](https://github.com/user-attachments/assets/03f11521-498e-4966-bfdd-e5f4f0844f97)
 ![Screenshot 2024-11-02 170451](https://github.com/user-attachments/assets/0012d680-c923-4bfe-9a84-be5b5cfa1242)
 ![Screenshot (174)](https://github.com/user-attachments/assets/506766c0-2fe5-450c-850f-7fc7a1106bf6)
+
+
 
 # Technologies Used
 Backend: PHP for server-side scripting and MySQL for database management.
