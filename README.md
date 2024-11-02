@@ -47,16 +47,17 @@ Create a new database (e.g., cableconnection).
 Import the SQL file provided in the repository (e.g., database.sql) to set up the necessary tables and data structure.
 
 # Project Structure
-index.php: Main landing page.
-ADMIN PAGES : Contains pages and scripts for admin management of customers, billing, and complaints.
-CUSTOMER PAGES : Interface for customers to view their details and manage their subscriptions.
-LOGIN PAGES : Contains the customer and admin login pages and customer and admin dashboard.
+
+1. index.php: Main landing page.
+2. ADMIN PAGES : Contains pages and scripts for admin management of customers, billing, and complaints.
+3. CUSTOMER PAGES : Interface for customers to view their details and manage their subscriptions.
+4. LOGIN PAGES : Contains the customer and admin login pages and customer and admin dashboard.
 
 # Usage
-1. User Registration: Register as a customer or admin.
-2. Admin Login: Admin can log in to manage users and view billing details.
-3. Billing Management: Admin can view, update, and delete billing information as needed.
-4. Complaints Handling: Admin can manage and resolve customer complaints efficiently.
+* User Registration: Register as a customer or admin.
+* Admin Login: Admin can log in to manage users and view billing details.
+* Billing Management: Admin can view, update, and delete billing information as needed.
+* Complaints Handling: Admin can manage and resolve customer complaints efficiently.
 
 # License
 This project is licensed under the GNU GPL 3.0. See the LICENSE file for details.
