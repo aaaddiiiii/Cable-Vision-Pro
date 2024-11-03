@@ -13,14 +13,20 @@ Cable-Vision-Pro is a web-based cable connection management application develope
 
 
 # Sample Images
-![Screenshot 2024-11-03 095500](https://github.com/user-attachments/assets/1412b9a0-84cc-423e-8829-3ba83666d0d1)
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/7156d9d6-b8d4-4a3b-85ac-1824660d3e39)
+![image](https://github.com/user-attachments/assets/b468ae57-d531-438f-bd14-a01b618699de)
+![image](https://github.com/user-attachments/assets/10fff3c3-aedd-4391-ae43-68a989181679)
+![image](https://github.com/user-attachments/assets/3b753ac3-5ef9-4bf5-99e3-02d859a0ddc9)
+![image](https://github.com/user-attachments/assets/f8c8d921-9f4a-48b1-ad2f-fcce1daea20f)
+![image](https://github.com/user-attachments/assets/b16e8e19-a2f9-4c9a-97c5-4d1ef05684df)
+![image](https://github.com/user-attachments/assets/95cad341-6d80-4a2d-a42e-f769f4bed8ed)
+![image](https://github.com/user-attachments/assets/59e63672-fd82-4797-a244-0375f0c24d20)
+![image](https://github.com/user-attachments/assets/715b6a96-5822-43c9-99ef-0221fae8f736)
+![image](https://github.com/user-attachments/assets/f204d3c0-7f77-499d-8e61-d07f9fb1ac93)
+![image](https://github.com/user-attachments/assets/f0a25a39-feb1-4353-a7c0-d7fe2d1a932a)
+![image](https://github.com/user-attachments/assets/722c2342-4e45-47b2-a3fb-a8d043726998)
+![Screenshot 2024-11-03 101038](https://github.com/user-attachments/assets/4bf57591-c804-4a29-99ec-4b62d78855bb)
+![Screenshot 2024-11-03 101129](https://github.com/user-attachments/assets/f3795225-7216-48dd-a5b9-4c4bb9c4926a)
 
 # Technologies Used
 
